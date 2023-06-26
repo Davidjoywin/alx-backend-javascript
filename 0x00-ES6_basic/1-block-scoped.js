@@ -1,4 +1,6 @@
 export default function taskBlock(trueOrFalse) {
+    //block scope
+
     var task = false;
     var task2 = true;
 
@@ -8,6 +10,5 @@ export default function taskBlock(trueOrFalse) {
     }
     
     return [task, task2];
-
 }
 
